@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  background-image: url("./img/weather.jpg");
+  height: 100vh;
+}
+.app > h1 {
+  color: red;
+  margin: 30px;
+  align-items: center;
+}
+.inputBoxes {
+  margin: 50px;
+}
+.inputBoxes > input {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+.inputBoxes > button {
+  background-color: blue;
+}
+.inputBoxes > h1 {
+  font-size: 50px;
+  color: white;
+}
